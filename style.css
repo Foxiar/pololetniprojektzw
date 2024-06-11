@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #030027;
+}
+nav{
+    position: sticky;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 10px;
+}
+nav ul li a{
+    color: #F7EBEC;
+    font-family: "Poppins";
+    transition: 0.3s;
+}
+nav ul li a:hover{
+    color: #FCA311;
+}
+.mainpage{
+    position: absolute;
+    top: 30vh;
+    left: 15vh;
+}
+h1{
+    font-family: "Montserrat";
+    color: #F7EBEC;
+    font-size: 72px;
+}
+
+.button{
+    background-color: #FCA311;
+    border: none;
+    color: #F7EBEC;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
